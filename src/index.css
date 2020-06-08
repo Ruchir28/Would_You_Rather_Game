@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.logout-button
+{
+  position: relative;
+  left:1000px;
+  top:-50px
+  
+}
+.answered-button
+{
+  text-align: center;
+  margin: 10px;
+}
+.user-top
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.user-image
+{
+  border-radius: 20px;
+  margin-left:10px
+}
+.card-container
+{
+  display: flex;
+  flex-direction:row;
+}
+.option-container
+{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  align-items: center;
+  width: 80%;
+  height: 60px;
+  background-color: lightgray;
+}
+.user-image-1
+{
+ 
+}
+.user-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.user-name
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  margin-left: 40px;
+  width: 100%;
+}
+.user-card
+{
+  font-family: cursive;
+  /* border: 2px solid lightgray; */
+  
+}
+.user-details p{
+  font-size: large;
+  color: coral;
+  text-decoration:bold;
+}
+.user-details span
+{
+  font-size: large;
+  text-decoration: solid;
+  color: black;
+}
+.user-score
+{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-score span{
+  color:black;
+  font-size: x-large;
+  text-decoration: double;
+
+}
