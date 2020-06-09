@@ -5,7 +5,7 @@ This is a Game built using react for UI and redux for state management.
 
 # downloading this project
 you can download this by visiting the github page 
-https://github.com/Ruchir28/Myreads-REACT
+https://github.com/Ruchir28/Would_You_Rather_Game
 
 # starting the app
 to start using this go on command prompt and change directory to this project's folder

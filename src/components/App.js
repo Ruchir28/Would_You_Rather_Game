@@ -7,6 +7,7 @@ import Question from './Question'
 import NewQuestion from './NewQuestion'
 import Login from './Login'
 import LeaderBoard from './LeaderBoard';
+import NotFound from './NotFound';
 class App extends Component
 {
   componentDidMount()
@@ -26,8 +27,7 @@ class App extends Component
         <Route exact path='/question/:id' component={Question}></Route>
         <Route exact path='/add' component={NewQuestion}></Route>
         <Route exact path='/LeaderBoard' component={LeaderBoard}></Route>
-        {/* <Route path='/' component={}></Route> */}
-
+        <Route component={NotFound}></Route> 
       </Switch>
 
       </BrowserRouter>
